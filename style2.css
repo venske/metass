@@ -1,46 +1,27 @@
 h1{
     color: red;
 }
-
-
 root {
-
     --cor-de-fundo: #1E1E1E;
-    
     --verde: #6FFF57;
-    
     --branco: #FFFFFF;
-    
     --botao-ativo: #3A375E;
-    
     --botao-inativo: #3a375e80;
-    
     --texto-fundo: #3a375e4d;
-    
+
     }
-    
-    body{
-    
+    body{   
     background-color: var(--cor-de-fundo);
-    
     color: var(--branco);
-    
     font-family: 'Chakra Petch', sans-serif;
     
     }
-    
     .conteudo-principal {
-    
     display: flex;
-    
     flex-direction: column;
-    
-    justify-content: center;
-    
+    justify-content: center; 
     align-items: center;
-    
     max-width: 1200px;
-    
     width: 100%;
     
     margin: 0 auto;
@@ -66,7 +47,7 @@ root {
     
     font-family: "Crakra Petch", sans-serif;
     
-    background-color: var(--botao-inativo):
+    background-color: var(--botao-inativo);
     
     color: var(--branco);
     
