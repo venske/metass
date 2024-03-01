@@ -1,7 +1,7 @@
 h1{
     color: red;
 }
-root {
+:root {
     --cor-de-fundo: #1E1E1E;
     --verde: #6FFF57;
     --branco: #FFFFFF;
@@ -37,13 +37,13 @@ root {
         font-size: 32px;
     }
 
-    titulo-principal span {
+    .titulo-principal span {
     
     color: var(--verde);
     
     }
     
-    botao {
+    .botao {
     
     font-family: "Crakra Petch", sans-serif;
     
@@ -73,12 +73,12 @@ root {
     
     }
     
-    botoes {
+    .botoes {
     
     display: block;
     
     }
-    ativo{
+    .ativo{
 
         background-color: var(--botao-ativo);
         
@@ -88,13 +88,13 @@ root {
         
         @media screen and (min-width: 768px) {
         
-        botoes {
+        .botoes {
         
         display: flex;
         
         }
         
-        botao:first-child {
+     .botao:first-child {
         
         border-radius: 40px 40px 0 0;
         
